@@ -1,20 +1,20 @@
 {
   "name": "wrtc",
   "private": true,
-  "description": "Standards-compliant WebRTC implementation for Node",
+  "description": "Standards-compliant WebRTC implementation for Node - forked to access latest version",
   "keywords": [
     "webrtc",
     "p2p",
     "peer"
   ],
-  "version": "0.4.7-dev",
+  "version": "0.4.7",
   "author": "Alan K <ack@modeswitch.org> (http://blog.modeswitch.org)",
   "homepage": "https://github.com/node-webrtc/node-webrtc",
   "bugs": "https://github.com/node-webrtc/node-webrtc/issues",
   "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
-    "url": "http://github.com/node-webrtc/node-webrtc.git"
+    "url": "http://github.com/revu-design/node-webrtc.git"
   },
   "main": "lib/index.js",
   "browser": "lib/browser.js",
@@ -26,7 +26,7 @@
     "host": "https://node-webrtc.s3.amazonaws.com"
   },
   "engines": {
-    "node": "^8.11.2 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0"
+    "node": "^8.11.2 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0"
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.4",
